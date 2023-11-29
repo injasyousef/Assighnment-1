@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBE396"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Tasks"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/txtTasks"
+        android:layout_width="match_parent"
+        android:layout_height="583dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add New Task" />
+
+    <Button
+        android:id="@+id/btnedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Edit Task"
+        android:textAlignment="center" />
+
+</LinearLayout>

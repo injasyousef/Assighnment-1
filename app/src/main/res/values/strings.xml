@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string-array name="stetus">
+        <item>Due</item>
+        <item>Done</item>
+    </string-array>
+</resources>
